@@ -1,0 +1,96 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    padding:40px;
+    background:black;
+}
+
+.text h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:10px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background:linear-gradient(-55deg, #30d675 29%, #30d675 29.1%, #30d675 68%, #30d675 68.1%);
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.banner-container .banner{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container .banner {
+    width:80%;
+}
+
+.banner-container .banner .content{
+    flex:1 1 250px;
+    text-align: center;
+    padding:10px;
+    text-transform: none;
+}
+
+.banner-container .banner .content span{
+    color:red;
+    font-size: 25px;
+}
+
+.banner-container .banner .content h3{
+    color:black;
+    font-size: 40px;
+}
+
+.banner-container .banner .content p{
+    color:black;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.banner-container .banner .content .btn{
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 25px;
+    background: green;
+    color:black;
+    margin:5px auto;
+    text-decoration: none;
+}
+
+.banner-container .banner .image{
+    position: relative;
+    bottom: -33px;
+    padding:10px;
+    flex:1 1 250px;
+}
+
+.banner-container .banner .image img{
+    width:100%;
+}
+
+@media (max-width:768px){
+    .banner-container .banner .image{
+        display: none;
+    }
+}
